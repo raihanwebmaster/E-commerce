@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="images/logo1.png" type="image/x-icon">
 </head>
 <body>
-    <div class="container sticky-top">
+    <header class="container sticky-top">
         <nav class="navbar  navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#"><img src="images/logo.png" alt="website logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,7 +32,9 @@
               </ul>
             </div>
           </nav>
-    </div>
+    </header>
+
+    <main></main>
     <div class="container">
         <div id="carouselExampleIndicators" class="carousel slide orange-bg" data-ride="carousel" data-interval="3500">
             <ol class="carousel-indicators">
@@ -93,19 +95,19 @@
     </div>
     <div class="container categories">
        <div class="row">
-           <div class="col-md-4 ">
+           <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
                <div class="cat1 d-flex justify-content-between align-items-center">
                 <h1>Watch</h1>
                 <img src="images/categories/watch.png" alt="watch">
                </div>
            </div>
-           <div class="col-md-4 ">
+           <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
                <div class="cat2 d-flex justify-content-between align-items-center">
                 <h1>Bag</h1>
                 <img src="images/categories/bag.png" alt="bag">
                </div>
            </div>
-           <div class="col-md-4 ">
+           <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
                <div class="cat3 d-flex justify-content-between align-items-center">
                 <h1>Shoes</h1>
                 <img src="images/categories/shoes.png" alt="shoes">
@@ -115,7 +117,7 @@
     </div>
     <div class="container shoes" id="shoes">
         <h3>Shoes</h3>
-        <div class="card-deck">
+        <div class="card-edit">
             <div class="card">
               <img src="images/shoes/shoe-1.png" class="card-img-top" alt="shoe-1">
               <div class="card-body">
@@ -145,9 +147,10 @@
             </div>
         </div>
     </div>
-    <div class="container" id="backpack">
+    <div
+     class="container" id="backpack">
         <h3>Backpack</h3>
-        <div class="card-deck">
+        <div class="card-edit">
             <div class="card">
               <img src="images/bags/bag-1.png" class="card-img-top" alt="bag-1">
               <div class="card-body">
@@ -183,12 +186,14 @@
             </div>
           </div>
     </div>
-    <div class="container d-flex justify-content-center align-items-center orange-bg" id="contact">
-       <div>
-        <h3>LET'S STAY IN TOUCH</h3>
-        <h6>Get update on sales,specials and more</h6>
-        <input class="form-control" type="text" placeholder="Enter your email">
-        <button class="buy-now-button">Submit</button>
+    <div class="container" id="contact">
+       <div class="d-flex justify-content-center align-items-center orange-bg bg">
+        <div class="p-3">
+            <h3>LET'S STAY IN TOUCH</h3>
+            <h6>Get update on sales,specials and more</h6>
+            <input class="form-control" type="text" placeholder="Enter your email">
+            <button class="buy-now-button">Submit</button>
+          </div>
        </div>
     </div>
     <footer>

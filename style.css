@@ -53,7 +53,7 @@ h5{
     border: none;
     background-color: white;
 }
-#contact{
+.bg{
     height: 300px;
 }
 #contact h6{
@@ -66,6 +66,21 @@ h5{
 footer{
     text-align: center;
    
+}
+.card-edit{
+    display: grid;
+    justify-content: center;
+    gap: 30px;
+}
+@media screen and (min-width:550px){
+    .card-edit{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (min-width:992px){
+    .card-edit{
+        grid-template-columns: repeat(3,1fr);
+    }
 }
 
 
